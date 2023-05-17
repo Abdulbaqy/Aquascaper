@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".SetUp">
+    tools:context=".Maintenance">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Set up your own aquascape!"
+        android:text="Maintenance your aquascape!"
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="#000000"/>
@@ -44,10 +44,10 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <RadioButton
-                android:id="@+id/radioButton1"
+                android:id="@+id/radioButtonLow"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Natural Style" />
+                android:text="Low" />
             <ImageView
                 android:layout_width="140sp"
                 android:layout_height="100sp"/>
@@ -58,10 +58,10 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/radioButtonMed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Iwagumi Style" />
+                android:text="Medium" />
             <ImageView
                 android:layout_width="140sp"
                 android:layout_height="100sp"/>
@@ -72,10 +72,10 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <RadioButton
-                android:id="@+id/radioButton3"
+                android:id="@+id/radioButtonHigh"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dutch Style" />
+                android:text="High" />
             <ImageView
                 android:layout_width="140sp"
                 android:layout_height="100sp"/>
@@ -83,7 +83,7 @@
     </RadioGroup>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/submitBtnSetup"
+        android:id="@+id/submitBtnMaintenance"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginEnd="20dp"
@@ -93,5 +93,6 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/round_back_primary_15"
         android:textColor="#FFFFFF"/>
+
 
 </LinearLayout>
